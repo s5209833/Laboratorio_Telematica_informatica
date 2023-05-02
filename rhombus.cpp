@@ -2,7 +2,7 @@
 /**
 //    @file		rhombus.cpp
 //    @brief	Implementation file for class rhombus
-//    @author	Nicolò Busi S5209833
+//    @author	NicolÃ² Busi S5209833
 */
 //---------------------------------------------------------
 
@@ -197,7 +197,7 @@ void rhombus::Dump()
 /// @return side
 double rhombus::Side(float dH, float dV) {
 	
-	return sqrt(pow(dH, SQUARE) + pow(dV, SQUARE));
+	return sqrt(pow(dH/2, SQUARE) + pow(dV/2, SQUARE));
 
 }
 ///////////////////////////////////////////////////////////////////////////
